@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de viajes</title>
+    <!-- Boostrap link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="Index.html" id="logo"><span class="ev-span">E-V</span>iajes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="icono-fa-solid"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class=" barra-nav navbar-nav me-auto">
+                        <li class=" navitem nav-item">
+                            <a class=" navlink nav-link active" href="Index.html"><strong>Inicio</strong> </a>
+                        </li>
+                        <li class=" navitem nav-item">
+                            <a class=" navlink nav-link" href="#reserva-aqui"><strong>Reserva</strong> </a>
+                        </li>
+                        <li class=" navitem nav-item">
+                            <a class=" navlink nav-link" href="Paquetes.html"> <strong> Paquetes </strong> </a>
+                        </li>
+                        <li class="navitem  nav-item">
+                            <a class=" navlink nav-link" href="#servicios"> <strong> Servicios</strong> </a>
+                        </li>
+                        <li class=" navitem  nav-item">
+                            <a class=" navlink nav-link" href="#Argentina"> <strong> Argentina</strong> </a>
+                        </li>
+                        <li class=" navitem  nav-item">
+                            <a class=" navlink nav-link" href="#invierno"> <strong> Invierno </strong> </a>
+                        </li>
+                        <li class=" navitem  nav-item">
+                            <a class=" navlink nav-link" href="#Nosotros"><strong>Nosotros</strong> </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class=" btn-color btn btn-primary" type="button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Comienzo del Home -->
+
+    <div class="hogar">
+
+        <div class="contenido-hogar">
+
+
+
+            <h5 class="titulo-h5"> <strong> Conocé nuevas formas de explorar.</strong></h5>
+            <h1 class="titulo-h1"> <strong> Momentos inolvidables en </strong> <span class="cambio-contexto"></span>
+            </h1>
+            <p class="p-viaja">Viaja sin preocupaciones a tu destino de ensueño</p>
+            <a class="a-reserva" href="#reserva-aqui"> Reserva aquí</a>
+        </div>
+    </div>
+
+    <!-- Comienzo de la reserva -->
+
+    <section class="reserva-aqui" id="reserva-aqui">
+
+        <div class="contenedor">
+
+            <div class="texto-principal">
+                <h1 class="h1-texto-principal"> <span class="span-r">R</span>eserva</h1>
+            </div>
+
+            <div class=" card-row row">
+
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img class="lets-medida" src="img/Lets Go Travel.avif" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-3 py-md-0">
+                    <form action="#">
+                        <input type="text" class=" input-col form-control" placeholder="Origen" required><br>
+                        <input type="text" class=" input-col form-control" placeholder="Destino" required><br>
+                        <input type="date" class=" input-col form-control" placeholder="Salida" required><br>
+                        <input type="date" class=" input-col form-control" placeholder="Regreso" required><br>
+                        <input type="number" class=" input-col form-control" placeholder="Cantidad " required><br>
+                        <input type="text" class=" input-col form-control" placeholder="Ingrese su clase" required list="categorias">
+                        <datalist id="categorias">
+                            <option value="Economy">
+                            <option value="Premiun Economy">
+                            <option value="Business">
+                            
+                          </datalist> <br>
+                        <textarea class=" form-control" rows="5" name="text"
+                            placeholder="Introduzca su nombre y datos"></textarea><br>
+                        <input type="submit" value="Reservar" class=" submit" required><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios  -->
+
+    
+    <h1 class="titulo-h1-servicios" id="servicios"> <span class="span-s">S</span>ervicios </h5>
+
+        <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/Hoteles.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h1 class="card-title"><strong> Hoteles </strong> </h1>
+                  <h3 class="card-text"> <strong>  Los mejores hoteles con nosotros, contamos con una gama hotelera para su elección. </strong></h3>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/alimentos-y-bebidas-en-un-hotel.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h1 class="card-title"><strong> Alimentos y Bebidas </strong> </h1>
+                  <h3 class="card-text"> <strong>  La importancia del departamento de Alimentos y bebidas radica en el hecho que los huéspedes tienen  necesidades básicas de alimentarse, a partir de esta necesidad este departamento tiene la misión de crear, administrar y distribuir estos servicios a través de los llamados centros de consumos como son los restaurantes, cafeterías, bares, centros nocturnos.  </strong></h3>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/guardia de seguridad.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h1 class="card-title"><strong> Guardia de Seguridad </strong> </h1>
+                  <h3 class="card-text"> <strong>  Los vigilantes de seguridad privada en hoteles llevan a cabo funciones de vigilancia y protección de personas e instalaciones. Nuestros vigilantes cuentan con experiencia y profesionalismo ya que recibieron una formación específica dependiendo del trabajo que van a desempeñar. </strong></h3>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/servicios de traslados.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h1 class="card-title"><strong> Servicios de traslados </strong> </h1>
+                  <h3 class="card-text"> <strong>  Con nuestros servicio de limusina para fines privados o comerciales - disfrutará del lujo y confort de nuestras limusinas que están listas para transportarlo a cualquier lugar de acuerdo a sus deseos. Todas nuestras limusinas están equipadas con aire acondicionado y con asientos muy placenteros. </strong></h3>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+
+
+        
+
+    
+   
+        
+
+            
+        
+
+        
+        
+            
+
+            <!-- <div class=" card">
+                <img class="hoteles" src="img/Hoteles.jpg" class="card-img-top" alt="...">
+                <div class="margen">
+                    
+                    <h3 class="hoteles-h1"> <strong> Hoteles</strong> </h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Desde hoteles baratos a hoteles 5 estrellas.</p>
+                </div>
+            </div> 
+
+            <div class="card-ab card">
+                <img class="imagen-ab" src="img/alimentos-y-bebidas-en-un-hotel.jpg" class="card-img-top" alt="...">
+                <div class="margen">
+                    
+                    <h3 class="hoteles-h1"> <strong> Hoteles</strong> </h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Desde hoteles baratos a hoteles 5 estrellas.</p>
+                </div>
+            </div> 
+
+            <div class=" card">
+                <img class="imagen-sh" src="img/guardia de seguridad.jpg" class="card-img-top" alt="...">
+                <div class="margen">
+                    
+                    <h3 class="hoteles-h1"> <strong> Seguridad Hotelera</strong> </h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Vigilancia las 24 horas dentro y fuera del hotel.</p>
+                </div>
+            </div>  -->
+
+
+
+            
+           
+
+            
+        </div>
+        
+
+    <!-- Js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

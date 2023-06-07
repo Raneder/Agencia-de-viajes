@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Paquetes</title>
+    <!-- Boostrap link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+
+    <!-- css style -->
+    <link rel="stylesheet" href="css/paquetes.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="Index.html" id="logo"><span class="ev-span">E-V</span>iajes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="icono-fa-solid"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class=" barra-nav navbar-nav me-auto">
+                        <li class=" navitem nav-item">
+                            <a class=" navlink nav-link active" href="Index.html"><strong>Inicio</strong> </a>
+                        </li>
+                        <!-- <li class=" navitem nav-item">
+                            <a class=" navlink nav-link" href="#reserva-aqui"><strong>Reserva</strong> </a>
+                        </li> -->
+                        <li class=" navitem nav-item">
+                            <a class=" navlink nav-link" href="#paquetes"> <strong> Paquetes </strong> </a>
+                        </li>
+                        <!-- <li class="navitem  nav-item">
+                            <a class=" navlink nav-link" href="#servicios"> <strong> Servicios</strong> </a>
+                        </li> -->
+                        <!-- <li class=" navitem  nav-item">
+                            <a class=" navlink nav-link" href="#Argentina"> <strong> Argentina</strong> </a>
+                        </li> -->
+                        <!-- <li class=" navitem  nav-item">
+                            <a class=" navlink nav-link" href="#invierno"> <strong> Invierno </strong> </a>
+                        </li> -->
+                        <li class=" navitem  nav-item">
+                            <a class=" navlink nav-link" href="#Nosotros"><strong>Nosotros</strong> </a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class=" btn-color btn btn-primary" type="button">Search</button>
+                    </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/Verano.webp" class="img 
+            d-block w-100" alt="Verano">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="vacaciones-voip"><strong>Cómo la comunidad de viajes en línea inspira los diferentes
+                            destinos</strong> </h5>
+
+                        <h5 class="vacaciones-voip"><strong>Viajar se considera un hobby maravilloso. Cuando llega la
+                                temporada de vacaciones, hay millones de personas en todo el mundo van para disfrutar de
+                                las vacaciones y es por eso que la temporada de vacaciones trae la máxima satisfacción
+                                para las personas que aman viajar. </strong> </h5>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/Invierno.avif" class="img 
+            d-block w-100" alt="Invierno">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="vacaciones-voip1"><strong> ¿ Te gusta el frío ? </strong> </h5>
+
+                        <h5 class="vacaciones-voip1"><strong> Te ofrecemos un buen desayuno, siempre indispensable para
+                                arrancar; esquiar para conocer alrededores, ver los bosques nevados. Si te gusta más el
+                                invierno, tenemos viajes excelentes para ti.</strong> </h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Otoño.jpg" class="img 
+            d-block w-100" alt="Phishing">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="vacaciones-voip"><strong>Nada ni nadie te detiene</strong> </h5>
+
+                        <h5 class="vacaciones-voip"><strong>Es tu camino, y solo tuyo. Otros pueden caminar contigo,
+                                pero nadie puede caminar por ti, tú puedes hacerlo </strong> </h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="paquetes" >
+        <h1 class="titulo-h1"> <span class="span-h1">P</span>ackages</h1>
+    
+        <div class="container" >
+            
+            <div class="row-style row" id="#paquetes">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class=" card-paquete card">
+                        <img src="img/Italia.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="h3-italia"> <strong>Italia</strong></h3>
+                            <p class="p-italia"> <strong> Italia es reconocida por su arte, su cultura y sus numerosísimos monumentos, entre ellos la Fontana di Trevi, torre de Pisa y el Coliseo romano; así como por su gastronomía (platos italianos famosos son la pizza y la pasta), su vino, su estilo de vida, su pintura, su diseño, cine, teatro, literatura y música, en particular, la ópera.</strong> </p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 class="h6-precio">Precio: <strong> $493.288</strong></h6>
+                            <button type="button" class="btn btn-warning">Reserva Ahora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class=" card-paquete card">
+                        <img src="img/Alemania.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="h3-italia"> <strong>Alemania</strong></h3>
+                            <p class="p-italia"> <strong> Alemania cuenta con gran diversidad de recorridos turísticos, cada uno con temáticas diferentes como la ruta de los castillos, la ruta del vino, la ruta de queso, la ruta de los Alpes, la ruta romántica, y entre otras.</strong> </p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 class="h6-precio">Precio: <strong> $450.634</strong></h6>
+                            <button type="button" class="btn btn-warning">Reserva Ahora</button>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class=" card-paquete card">
+                        <img src="img/España.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="h3-italia"> <strong>España</strong></h3>
+                            <p class="p-italia"> <strong> España es un país turístico con una desarrollada infraestructura en el sector servicios, situándose entre los tres más visitados del mundo, al que acuden anualmente millones de viajeros atraídos por sus playas y agradable clima, el abundante patrimonio artístico del país y la riqueza gastronómica.</strong> </p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 class="h6-precio">Precio: <strong> $438.544</strong></h6>
+                            <button type="button" class="btn btn-warning">Reserva Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-style row" >
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class=" card-paquete card">
+                        <img src="img/Francia.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="h3-italia"> <strong>Francia</strong></h3>
+                            <p class="p-italia"> <strong> Su atractivo turístico se debe a la gran cantidad y variedad de puntos de interés, a la diversidad de paisajes, a la riqueza vinícola y gastronómica, al patrimonio histórico, cultural y artístico, al clima templado y a la facilidad de acceso y de infraestructuras de transporte, así como a la amplia y variada oferta del país.</strong> </p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 class="h6-precio">Precio: <strong> $451.82</strong></h6>
+                            <button type="button" class="btn btn-warning">Reserva Ahora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class=" card-paquete card">
+                        <img src="img/Brasil.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="h3-italia"> <strong>Brasil</strong></h3>
+                            <p class="p-italia"> <strong> Brasil es un país alegre donde el turismo más tradicional se une al divertido, al que te permite disfurtar de su Sol y sus Gentes, de su ritmo y su sabor. Por su diversidad, el turismo se reparte entre sus playas, sus selvas tropicales,etc. De entre las ciudades, destacan, sobre todo, Río de Janeiro.</strong> </p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 class="h6-precio">Precio: <strong> $92.886</strong></h6>
+                            <button type="button" class="btn btn-warning">Reserva Ahora</button>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class=" card-paquete card">
+                        <img src="img/Mexico.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="h3-italia"> <strong>México</strong></h3>
+                            <p class="p-italia"> <strong> México es un destino turístico que cuenta con una gran diversidad de recursos naturales, enorme riqueza cultural e histórica, reconocida gastronomía a nivel mundial, privilegiada ubicación geográfica y clima excepcional, situación que lo posición como un destino atractivo.</strong> </p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 class="h6-precio">Precio: <strong> $296.623</strong></h6>
+                            <button type="button" class="btn btn-warning">Reserva Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-style row" >
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class=" card-paquete card">
+                        <img src="img/Inglaterra.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="h3-italia"> <strong>Inglaterra</strong></h3>
+                            <p class="p-italia"> <strong> Inglaterra es uno de los países más reconocidos a nivel mundial, es el territorio más extenso y poblado entre los países que forman parte del Reino Unido, bordeada al norte por Escocia y al oeste por Gales, el mar del Norte, mar de Irlanda, océano Atlántico y el canal de la Mancha.</strong> </p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 class="h6-precio">Precio: <strong> $451.933</strong></h6>
+                            <button type="button" class="btn btn-warning">Reserva Ahora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class=" card-paquete card">
+                        <img src="img/Coombia.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="h3-italia"> <strong>Colombia</strong></h3>
+                            <p class="p-italia"> <strong> Tiene una oferta turística basada en la tradición y la conservación de sus paisajes y tradiciones cafetaleras. Es posible hospedarse en bellas haciendas en medio de los inmensos cafetales, vivir el proceso de producción del grano, además de disfrutar de parques temáticos alrededor de la cultura cafetera.</strong> </p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 class="h6-precio">Precio: <strong> $153.23</strong></h6>
+                            <button type="button" class="btn btn-warning">Reserva Ahora</button>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class=" card-paquete card">
+                        <img src="img/Rusia.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="h3-italia"> <strong>Rusia</strong></h3>
+                            <p class="p-italia"> <strong> Rusia se extiende desde Europa a Asia y es uno de los países más grandes del mundo. Hay muchos monumentos históricos y posee una belleza natural para atraer turistas a visitar Rusia.</strong> </p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                            <h6 class="h6-precio">Precio: <strong> $498.35</strong></h6>
+                            <button type="button" class="btn btn-warning">Reserva Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    <!-- Js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
